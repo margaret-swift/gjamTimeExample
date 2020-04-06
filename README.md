@@ -24,3 +24,6 @@ Covariates (aggregated across each grid cell) include:
   - minimum temperature
 
 The main run file is found in ./scripts/gjamTime.R
+
+
+For more about GJAM, open the vignette: vignette('gjamVignette') or go to "https://cran.r-project.org/web/packages/gjam/vignettes/gjamVignette.html". For more about the Time Series version, see 'information/GJAMTime.html'.
