@@ -15,7 +15,7 @@ message("---------------------------------------------------------------------")
 
 message('loading packages...')
 if (!require("pacman")) install.packages("pacman")
-packages <- c('ggplot2','gjam','gridExtra','downloader', 'MASS','RcppArmadillo','Rcpp','sf')
+packages <- c('ggplot2','gjam','gridExtra','downloader','MASS','RcppArmadillo','Rcpp','sf','tidyverse')
 suppressPackageStartupMessages({ pacman::p_load(char=packages) })
 cat('   ')
 message(paste(packages, collapse=", "))
