@@ -30,8 +30,7 @@ species.data <- ydata
 # plots grid overlaid on KNP map
 knpPlot(grid=knp.grid) 
 # you can also plot species populations by year.
-knpPlot(grid=knp.grid, popdata=species.data, 'sp1', year=1991)
-knpPlot(grid=knp.grid, popdata=species.data, sp=c('sp1','sp2'), year=1991:1992)
+knpPlot(grid=knp.grid, popdata=species.data, sp='sp1', year=1991)
 
 ################################################################################
 # Fill Missing Times
