@@ -13,11 +13,14 @@ survey, edge grid cells were assigned 'effort' proportional to the area
 contained within the park.
 
 Covariates (aggregated across each grid cell) include: 
+
 -- Percentage of:
   - clay content in soil
   - basalt content in underlying geologies
+  
 -- Centroid distance from:
   - water sources (rivers)
+  
 -- Mean over all years, and annual anomalies from the full mean, for:
   - grass biomass
   - rainfall
