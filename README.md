@@ -14,14 +14,14 @@ contained within the park.
 
 Covariates (aggregated across each grid cell) include: 
 
-## Percentage of:
+Percentage of:
   - clay content in soil
   - basalt content in underlying geologies
   
-## Centroid distance from:
+Centroid distance from:
   - water sources (rivers)
   
-## Mean over all years, and annual anomalies from the full mean, for:
+<b>Mean over all years, and annual anomalies from the full mean, for:</b>
   - grass biomass
   - rainfall
   - minimum temperature
