@@ -14,19 +14,18 @@ contained within the park.
 
 Covariates (aggregated across each grid cell) include: 
 
--- Percentage of:
+## Percentage of:
   - clay content in soil
   - basalt content in underlying geologies
   
--- Centroid distance from:
+## Centroid distance from:
   - water sources (rivers)
   
--- Mean over all years, and annual anomalies from the full mean, for:
+## Mean over all years, and annual anomalies from the full mean, for:
   - grass biomass
   - rainfall
   - minimum temperature
 
 The main run file is found in ./scripts/gjamTime.R
-
 
 For more about GJAM, open the vignette: vignette('gjamVignette') or go to "https://cran.r-project.org/web/packages/gjam/vignettes/gjamVignette.html". For more about the Time Series version, see './information/GJAMTime.html'.
