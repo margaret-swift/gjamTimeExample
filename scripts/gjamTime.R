@@ -113,15 +113,15 @@ modelList <- list( typeNames = 'DA', ng = 500, burnin = 50,
 ################################################################################
 
 output <- .gjam(formulaB, xdata, ydata, modelList, verbose=T)
-save(output, file=file.path('../output', 'outGJAMTime.RData'))
+save(output, file=file.path('../data', 'outGJAMTime.RData'))
 
 ################################################################################
 # PLOT OUTPUT
 ################################################################################
 
-# Set "SAVEPLOTS=T" to save the plots to the output folder.
+# Set "SAVEPLOTS=T" to save the plots to the data folder.
 plotPars <- list(GRIDPLOTS=T, CLUSTERPLOTS=T, PLOTALLY=T, SAVEPLOTS=F, 
-                 outFolder='../output/gjamTimePlots')
+                 outFolder='../data/gjamTimePlots')
 .gjamPlot(output, plotPars)
 
 # you may note that the contribution of immigration/emigration is small; this is
