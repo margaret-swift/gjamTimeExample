@@ -49,7 +49,10 @@ message('   data loaded.')
 ################################################################################
 
 message('loading functions...')
-message('   filePaths(), knpPlot(), plotSpecies()')
+message('   create(), filePaths(), knpPlot(), plotSpecies()')
+create <- function(path) {
+  if (!length(list.files(path))) dir.create(path)
+}
 filePaths <- function(base, files) {
   for (i in 1:length(files)) files[i] <- file.path(base, files[i])
   files
