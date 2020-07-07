@@ -2,7 +2,7 @@
 # Author: Margaret Swift
 # Contact: margaret.swift@duke.edu
 # Created: 11/17/19
-# Last Updated: 4/6/20
+# Last Updated: 7/7/20
 
 # This file runs as a tutorial for GJAM Time Series using data collected at
 #    Kruger National Park in South Africa. Response data are herbivore count
