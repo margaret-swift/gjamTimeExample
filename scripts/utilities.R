@@ -31,6 +31,7 @@ for (f in files) {
   if (grepl('.R', toupper(f))) source(path)
   else Rcpp::sourceCpp(path)
 }
+create('../output')
 message('   files loaded.')
 
 message('sourcing from github...')
@@ -44,15 +45,14 @@ load(f)
 message(paste0('   ', f))
 message('   data loaded.')
 
+dir.create('../output', showWarnings = FALSE)
+
 ################################################################################
 # Functions
 ################################################################################
 
 message('loading functions...')
-message('   create(), filePaths(), knpPlot(), plotSpecies()')
-create <- function(path) {
-  if (!length(list.files(path))) dir.create(path)
-}
+message('   filePaths(), knpPlot(), plotSpecies()')
 filePaths <- function(base, files) {
   for (i in 1:length(files)) files[i] <- file.path(base, files[i])
   files
