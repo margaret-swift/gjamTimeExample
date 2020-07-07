@@ -2,7 +2,7 @@
 # Author: Margaret Swift
 # Contact: margaret.swift@duke.edu
 # Created: 11/17/19
-# Last Updated: 4/6/20
+# Last Updated: 7/7/20
 
 # Loads libraries and package files for GJAM Time Series.
 # Holds all universal Utility functions, sources, libraries, 
